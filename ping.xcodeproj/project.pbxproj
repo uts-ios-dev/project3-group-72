@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91A9E1A620BD76DA00249568 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A9E1A520BD76DA00249568 /* SearchController.swift */; };
+		91A9E1A820BD849400249568 /* Source in Resources */ = {isa = PBXBuildFile; fileRef = 91A9E1A720BD849400249568 /* Source */; };
+		91E4FA1220BD92E400BEA27C /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E4FA1120BD92E400BEA27C /* GooglePlaces.framework */; };
+		91E4FA1420BD930C00BEA27C /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91E4FA1320BD930C00BEA27C /* GooglePlaces.bundle */; };
+		91E584BA20B6769500C8785D /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E584B920B6769500C8785D /* GoogleMaps.framework */; };
+		91E584BC20B676B100C8785D /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91E584BB20B676B100C8785D /* GoogleMaps.bundle */; };
+		91E584C020B67CFA00C8785D /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E584BF20B67CFA00C8785D /* MapController.swift */; };
+		91FD29FE20B6632400EF32D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD29FD20B6632400EF32D5 /* AppDelegate.swift */; };
+		91FD2A0020B6632400EF32D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD29FF20B6632400EF32D5 /* ViewController.swift */; };
+		91FD2A0320B6632400EF32D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FD2A0120B6632400EF32D5 /* Main.storyboard */; };
+		91FD2A0620B6632400EF32D5 /* ping.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91FD2A0420B6632400EF32D5 /* ping.xcdatamodeld */; };
+		91FD2A0820B6632400EF32D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FD2A0720B6632400EF32D5 /* Assets.xcassets */; };
+		91FD2A0B20B6632400EF32D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FD2A0920B6632400EF32D5 /* LaunchScreen.storyboard */; };
+		91FD2A1620B6632400EF32D5 /* pingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD2A1520B6632400EF32D5 /* pingTests.swift */; };
+		91FD2A2120B6632400EF32D5 /* pingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD2A2020B6632400EF32D5 /* pingUITests.swift */; };
+		91FD2A3120B66DDB00EF32D5 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A3020B66DDB00EF32D5 /* GoogleMapsBase.framework */; };
+		91FD2A3520B66DFD00EF32D5 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A3420B66DFD00EF32D5 /* GoogleMapsCore.framework */; };
+		91FD2A3C20B6709900EF32D5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A3B20B6709900EF32D5 /* Accelerate.framework */; };
+		91FD2A3E20B670A200EF32D5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A3D20B670A100EF32D5 /* CoreData.framework */; };
+		91FD2A4020B670AA00EF32D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A3F20B670AA00EF32D5 /* CoreGraphics.framework */; };
+		91FD2A4220B670B400EF32D5 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A4120B670B400EF32D5 /* CoreImage.framework */; };
+		91FD2A4420B6710800EF32D5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A4320B6710800EF32D5 /* CoreLocation.framework */; };
+		91FD2A4620B6711300EF32D5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A4520B6711300EF32D5 /* CoreTelephony.framework */; };
+		91FD2A4820B6711A00EF32D5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A4720B6711A00EF32D5 /* CoreText.framework */; };
+		91FD2A4A20B6712200EF32D5 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A4920B6712200EF32D5 /* GLKit.framework */; };
+		91FD2A4C20B6712A00EF32D5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A4B20B6712A00EF32D5 /* ImageIO.framework */; };
+		91FD2A4E20B6713800EF32D5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A4D20B6713800EF32D5 /* libc++.tbd */; };
+		91FD2A5020B6714200EF32D5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A4F20B6714200EF32D5 /* libz.tbd */; };
+		91FD2A5220B6714B00EF32D5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A5120B6714B00EF32D5 /* OpenGLES.framework */; };
+		91FD2A5420B6715F00EF32D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A5320B6715F00EF32D5 /* QuartzCore.framework */; };
+		91FD2A5620B6716800EF32D5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A5520B6716800EF32D5 /* SystemConfiguration.framework */; };
+		91FD2A5820B6717500EF32D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD2A5720B6717500EF32D5 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91FD2A1220B6632400EF32D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FD29F220B6632400EF32D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FD29F920B6632400EF32D5;
+			remoteInfo = ping;
+		};
+		91FD2A1D20B6632400EF32D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FD29F220B6632400EF32D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FD29F920B6632400EF32D5;
+			remoteInfo = ping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91A9E1A520BD76DA00249568 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		91A9E1A720BD849400249568 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
+		91E4FA1120BD92E400BEA27C /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = "../../GooglePlaces-2.7.0/Frameworks/GooglePlaces.framework"; sourceTree = "<group>"; };
+		91E4FA1320BD930C00BEA27C /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		91E584B920B6769500C8785D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		91E584BB20B676B100C8785D /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		91E584BF20B67CFA00C8785D /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		91FD29FA20B6632400EF32D5 /* ping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FD29FD20B6632400EF32D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91FD29FF20B6632400EF32D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91FD2A0220B6632400EF32D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91FD2A0520B6632400EF32D5 /* ping.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ping.xcdatamodel; sourceTree = "<group>"; };
+		91FD2A0720B6632400EF32D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91FD2A0A20B6632400EF32D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91FD2A0C20B6632400EF32D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FD2A1120B6632400EF32D5 /* pingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FD2A1520B6632400EF32D5 /* pingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pingTests.swift; sourceTree = "<group>"; };
+		91FD2A1720B6632400EF32D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FD2A1C20B6632400EF32D5 /* pingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FD2A2020B6632400EF32D5 /* pingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pingUITests.swift; sourceTree = "<group>"; };
+		91FD2A2220B6632400EF32D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FD2A3020B66DDB00EF32D5 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		91FD2A3420B66DFD00EF32D5 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		91FD2A3B20B6709900EF32D5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		91FD2A3D20B670A100EF32D5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		91FD2A3F20B670AA00EF32D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91FD2A4120B670B400EF32D5 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		91FD2A4320B6710800EF32D5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		91FD2A4520B6711300EF32D5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		91FD2A4720B6711A00EF32D5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		91FD2A4920B6712200EF32D5 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		91FD2A4B20B6712A00EF32D5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		91FD2A4D20B6713800EF32D5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		91FD2A4F20B6714200EF32D5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		91FD2A5120B6714B00EF32D5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		91FD2A5320B6715F00EF32D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		91FD2A5520B6716800EF32D5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		91FD2A5720B6717500EF32D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FD29F720B6632400EF32D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FD2A5820B6717500EF32D5 /* UIKit.framework in Frameworks */,
+				91FD2A5620B6716800EF32D5 /* SystemConfiguration.framework in Frameworks */,
+				91FD2A5420B6715F00EF32D5 /* QuartzCore.framework in Frameworks */,
+				91FD2A5220B6714B00EF32D5 /* OpenGLES.framework in Frameworks */,
+				91FD2A5020B6714200EF32D5 /* libz.tbd in Frameworks */,
+				91FD2A4E20B6713800EF32D5 /* libc++.tbd in Frameworks */,
+				91E584BA20B6769500C8785D /* GoogleMaps.framework in Frameworks */,
+				91FD2A4C20B6712A00EF32D5 /* ImageIO.framework in Frameworks */,
+				91FD2A4A20B6712200EF32D5 /* GLKit.framework in Frameworks */,
+				91FD2A4820B6711A00EF32D5 /* CoreText.framework in Frameworks */,
+				91FD2A4620B6711300EF32D5 /* CoreTelephony.framework in Frameworks */,
+				91FD2A4420B6710800EF32D5 /* CoreLocation.framework in Frameworks */,
+				91E4FA1220BD92E400BEA27C /* GooglePlaces.framework in Frameworks */,
+				91FD2A4220B670B400EF32D5 /* CoreImage.framework in Frameworks */,
+				91FD2A4020B670AA00EF32D5 /* CoreGraphics.framework in Frameworks */,
+				91FD2A3E20B670A200EF32D5 /* CoreData.framework in Frameworks */,
+				91FD2A3C20B6709900EF32D5 /* Accelerate.framework in Frameworks */,
+				91FD2A3520B66DFD00EF32D5 /* GoogleMapsCore.framework in Frameworks */,
+				91FD2A3120B66DDB00EF32D5 /* GoogleMapsBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FD2A0E20B6632400EF32D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FD2A1920B6632400EF32D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91FD29F120B6632400EF32D5 = {
+			isa = PBXGroup;
+			children = (
+				91A9E1A720BD849400249568 /* Source */,
+				91FD29FC20B6632400EF32D5 /* ping */,
+				91FD2A1420B6632400EF32D5 /* pingTests */,
+				91FD2A1F20B6632400EF32D5 /* pingUITests */,
+				91FD29FB20B6632400EF32D5 /* Products */,
+				91FD2A3A20B6709900EF32D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91FD29FB20B6632400EF32D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FD29FA20B6632400EF32D5 /* ping.app */,
+				91FD2A1120B6632400EF32D5 /* pingTests.xctest */,
+				91FD2A1C20B6632400EF32D5 /* pingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FD29FC20B6632400EF32D5 /* ping */ = {
+			isa = PBXGroup;
+			children = (
+				91E4FA1120BD92E400BEA27C /* GooglePlaces.framework */,
+				91FD29FD20B6632400EF32D5 /* AppDelegate.swift */,
+				91FD29FF20B6632400EF32D5 /* ViewController.swift */,
+				91E4FA1320BD930C00BEA27C /* GooglePlaces.bundle */,
+				91E584BF20B67CFA00C8785D /* MapController.swift */,
+				91A9E1A520BD76DA00249568 /* SearchController.swift */,
+				91FD2A0120B6632400EF32D5 /* Main.storyboard */,
+				91FD2A0720B6632400EF32D5 /* Assets.xcassets */,
+				91FD2A0920B6632400EF32D5 /* LaunchScreen.storyboard */,
+				91FD2A0C20B6632400EF32D5 /* Info.plist */,
+				91FD2A0420B6632400EF32D5 /* ping.xcdatamodeld */,
+				91E584BB20B676B100C8785D /* GoogleMaps.bundle */,
+				91E584B920B6769500C8785D /* GoogleMaps.framework */,
+				91FD2A3420B66DFD00EF32D5 /* GoogleMapsCore.framework */,
+				91FD2A3020B66DDB00EF32D5 /* GoogleMapsBase.framework */,
+			);
+			path = ping;
+			sourceTree = "<group>";
+		};
+		91FD2A1420B6632400EF32D5 /* pingTests */ = {
+			isa = PBXGroup;
+			children = (
+				91FD2A1520B6632400EF32D5 /* pingTests.swift */,
+				91FD2A1720B6632400EF32D5 /* Info.plist */,
+			);
+			path = pingTests;
+			sourceTree = "<group>";
+		};
+		91FD2A1F20B6632400EF32D5 /* pingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91FD2A2020B6632400EF32D5 /* pingUITests.swift */,
+				91FD2A2220B6632400EF32D5 /* Info.plist */,
+			);
+			path = pingUITests;
+			sourceTree = "<group>";
+		};
+		91FD2A3A20B6709900EF32D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91FD2A5720B6717500EF32D5 /* UIKit.framework */,
+				91FD2A5520B6716800EF32D5 /* SystemConfiguration.framework */,
+				91FD2A5320B6715F00EF32D5 /* QuartzCore.framework */,
+				91FD2A5120B6714B00EF32D5 /* OpenGLES.framework */,
+				91FD2A4F20B6714200EF32D5 /* libz.tbd */,
+				91FD2A4D20B6713800EF32D5 /* libc++.tbd */,
+				91FD2A4B20B6712A00EF32D5 /* ImageIO.framework */,
+				91FD2A4920B6712200EF32D5 /* GLKit.framework */,
+				91FD2A4720B6711A00EF32D5 /* CoreText.framework */,
+				91FD2A4520B6711300EF32D5 /* CoreTelephony.framework */,
+				91FD2A4320B6710800EF32D5 /* CoreLocation.framework */,
+				91FD2A4120B670B400EF32D5 /* CoreImage.framework */,
+				91FD2A3F20B670AA00EF32D5 /* CoreGraphics.framework */,
+				91FD2A3D20B670A100EF32D5 /* CoreData.framework */,
+				91FD2A3B20B6709900EF32D5 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FD29F920B6632400EF32D5 /* ping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FD2A2520B6632400EF32D5 /* Build configuration list for PBXNativeTarget "ping" */;
+			buildPhases = (
+				91FD29F620B6632400EF32D5 /* Sources */,
+				91FD29F720B6632400EF32D5 /* Frameworks */,
+				91FD29F820B6632400EF32D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ping;
+			productName = ping;
+			productReference = 91FD29FA20B6632400EF32D5 /* ping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91FD2A1020B6632400EF32D5 /* pingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FD2A2820B6632400EF32D5 /* Build configuration list for PBXNativeTarget "pingTests" */;
+			buildPhases = (
+				91FD2A0D20B6632400EF32D5 /* Sources */,
+				91FD2A0E20B6632400EF32D5 /* Frameworks */,
+				91FD2A0F20B6632400EF32D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FD2A1320B6632400EF32D5 /* PBXTargetDependency */,
+			);
+			name = pingTests;
+			productName = pingTests;
+			productReference = 91FD2A1120B6632400EF32D5 /* pingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91FD2A1B20B6632400EF32D5 /* pingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FD2A2B20B6632400EF32D5 /* Build configuration list for PBXNativeTarget "pingUITests" */;
+			buildPhases = (
+				91FD2A1820B6632400EF32D5 /* Sources */,
+				91FD2A1920B6632400EF32D5 /* Frameworks */,
+				91FD2A1A20B6632400EF32D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FD2A1E20B6632400EF32D5 /* PBXTargetDependency */,
+			);
+			name = pingUITests;
+			productName = pingUITests;
+			productReference = 91FD2A1C20B6632400EF32D5 /* pingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FD29F220B6632400EF32D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Farhan Saeed";
+				TargetAttributes = {
+					91FD29F920B6632400EF32D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					91FD2A1020B6632400EF32D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91FD29F920B6632400EF32D5;
+					};
+					91FD2A1B20B6632400EF32D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91FD29F920B6632400EF32D5;
+					};
+				};
+			};
+			buildConfigurationList = 91FD29F520B6632400EF32D5 /* Build configuration list for PBXProject "ping" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91FD29F120B6632400EF32D5;
+			productRefGroup = 91FD29FB20B6632400EF32D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FD29F920B6632400EF32D5 /* ping */,
+				91FD2A1020B6632400EF32D5 /* pingTests */,
+				91FD2A1B20B6632400EF32D5 /* pingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FD29F820B6632400EF32D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A9E1A820BD849400249568 /* Source in Resources */,
+				91FD2A0B20B6632400EF32D5 /* LaunchScreen.storyboard in Resources */,
+				91FD2A0820B6632400EF32D5 /* Assets.xcassets in Resources */,
+				91FD2A0320B6632400EF32D5 /* Main.storyboard in Resources */,
+				91E4FA1420BD930C00BEA27C /* GooglePlaces.bundle in Resources */,
+				91E584BC20B676B100C8785D /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FD2A0F20B6632400EF32D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FD2A1A20B6632400EF32D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FD29F620B6632400EF32D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E584C020B67CFA00C8785D /* MapController.swift in Sources */,
+				91A9E1A620BD76DA00249568 /* SearchController.swift in Sources */,
+				91FD2A0020B6632400EF32D5 /* ViewController.swift in Sources */,
+				91FD2A0620B6632400EF32D5 /* ping.xcdatamodeld in Sources */,
+				91FD29FE20B6632400EF32D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FD2A0D20B6632400EF32D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FD2A1620B6632400EF32D5 /* pingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FD2A1820B6632400EF32D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FD2A2120B6632400EF32D5 /* pingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91FD2A1320B6632400EF32D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FD29F920B6632400EF32D5 /* ping */;
+			targetProxy = 91FD2A1220B6632400EF32D5 /* PBXContainerItemProxy */;
+		};
+		91FD2A1E20B6632400EF32D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FD29F920B6632400EF32D5 /* ping */;
+			targetProxy = 91FD2A1D20B6632400EF32D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91FD2A0120B6632400EF32D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FD2A0220B6632400EF32D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91FD2A0920B6632400EF32D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FD2A0A20B6632400EF32D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91FD2A2320B6632400EF32D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91FD2A2420B6632400EF32D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FD2A2620B6632400EF32D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG76N5JZ3Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ping",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ping/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				);
+				INFOPLIST_FILE = ping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.ping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91FD2A2720B6632400EF32D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG76N5JZ3Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ping",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ping/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				);
+				INFOPLIST_FILE = ping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.ping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91FD2A2920B6632400EF32D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.pingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ping.app/ping";
+			};
+			name = Debug;
+		};
+		91FD2A2A20B6632400EF32D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.pingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ping.app/ping";
+			};
+			name = Release;
+		};
+		91FD2A2C20B6632400EF32D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.pingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ping;
+			};
+			name = Debug;
+		};
+		91FD2A2D20B6632400EF32D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = pingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.pingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ping;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FD29F520B6632400EF32D5 /* Build configuration list for PBXProject "ping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FD2A2320B6632400EF32D5 /* Debug */,
+				91FD2A2420B6632400EF32D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FD2A2520B6632400EF32D5 /* Build configuration list for PBXNativeTarget "ping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FD2A2620B6632400EF32D5 /* Debug */,
+				91FD2A2720B6632400EF32D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FD2A2820B6632400EF32D5 /* Build configuration list for PBXNativeTarget "pingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FD2A2920B6632400EF32D5 /* Debug */,
+				91FD2A2A20B6632400EF32D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FD2A2B20B6632400EF32D5 /* Build configuration list for PBXNativeTarget "pingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FD2A2C20B6632400EF32D5 /* Debug */,
+				91FD2A2D20B6632400EF32D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91FD2A0420B6632400EF32D5 /* ping.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91FD2A0520B6632400EF32D5 /* ping.xcdatamodel */,
+			);
+			currentVersion = 91FD2A0520B6632400EF32D5 /* ping.xcdatamodel */;
+			path = ping.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 91FD29F220B6632400EF32D5 /* Project object */;
+}
