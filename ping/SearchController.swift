@@ -37,7 +37,14 @@ class SearchController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    //search bar goes here
+    
+    func createSearchBar()
+    {
+        searchBar.showsSearchResultsButton = true
+        searchBar.showsCancelButton = false
+        self.navigationItem.titleView = searchBar
+    }
+
     func getPolylineRoute(destination:String)
     {
         let locValue = getCurrentLocation()
@@ -77,6 +84,15 @@ class SearchController: UIViewController {
         task.resume()
     }
     
-    //current location goes here
+     func getCurrentLocation() -> CLLocationCoordinate2D
+    {
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.delegate = self as? CLLocationManagerDelegate
+            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            locationManager.startUpdatingLocation()
+        }
+        let locValue: CLLocationCoordinate2D = (locationManager.location?.coordinate)!
+        return locValue
+    }
 
 }
